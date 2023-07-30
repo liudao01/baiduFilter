@@ -3,6 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://www.baidu.com/
 // @grant       none
+// @updateURL   https://github.com/liudao01/baiduFilter/blob/main/filter.js
 // @version     1.1
 // @author      liuml
 // @license MIT
