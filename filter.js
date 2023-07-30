@@ -9,9 +9,10 @@
 // @license MIT
 // @description 2023/7/28 14:32:53
 // ==/UserScript==
-// 等待页面节点加载完毕后执行代码
-    document.addEventListener("DOMContentLoaded", function() {
-      // 获取 s_content_2 节点
+
+// 等待页面加载完成后执行代码
+window.onload = function() {
+     // 获取 s_content_2 节点
       const sContent2 = document.querySelector("#s_content_2");
 
       // 检查是否找到 s_content_2 节点
@@ -22,9 +23,6 @@
       } else {
         console.log("未找到 s_content_2 节点");
       }
-    });
-// 等待页面加载完成后执行代码
-window.onload = function() {
 const searchButton = document.querySelector("#s_menu_mine");
 
   // 模拟点击搜索按钮
